@@ -63,5 +63,8 @@ http://localhost:8080/api/hello <- zwroci Stringa
 Prawdopodobny stack technologiczny:
 Java 8, SpringBoot 2, Maven, MySql, Git, JUnit + AssertJ, Mockito, Lombok, Guava, Slf4j by Lombok
 
+1.	drobne poprawki API
+2.	poprawa encji, poczytanie o cascadeType, fetchType, orphanRemoval
+3.	opcjonalnie -> testy kaskadowosci i orphanRemoval za pomoca h2
 
 
