@@ -33,3 +33,35 @@ Opracowanie aplikacji w trzech krokach:
 * Unit 1) Stworzenie monolitu z logiką w endpointach i współdzielonym serwisem trzuymającym elementy w pamięci
 * Unit 2) Przeniesienie zarządzania stanem do serwisu na zewnątrz do innego mikroserwisu
 * Unit 3) Mikroserwis trzymający stan skonfigurować na trzymanie danych w bazie danych. Przyjrzeć się connection pool do bazy danych.
+
+Inne:
+* Użycie lomboka w encjach
+Podsumowanie:
+1.	Zmiana API np.:
+Get->/user/{userId}
+Put->/user/{userId} {body}
+Post->/discount {body}
+Put->/discount {body} 
+Delete->/discount/{(type} 
+Get->/discount/{type}
+2.	 Stworzenie packagu z encjami
+
+1. relacja wiele do wielu miedzy film a room
+2. dodanie czasu wyswietlania filmu
+3. Zaprojektowanie API
+
+1. Dodanie metody w controllerze zwracjacej typ ResponseEntity<JakisObject>
+2. Testy integracyjne dla obu metod(ResponseEntity<JakisObject> i JakisObject) za pomocą klasy TestRestTemplate
+3. Przejrzenie roznic miedzy 4 metodami protokolu http(get,post,delete,put) z wyjasniem które sa safe i idempotent i w jakich sytuacjach powinny być używane
+
+Podsumowanie:
+Step 0:
+Stworzenie aplikacji „hello world” za pomocą Springa, mavena, która zwroci String „hello world” za pomocą metody GET. Do manualnego testu można uzyc pluginu do przeglądarki Postman.
+
+http://localhost:8080/api/hello <- zwroci Stringa
+
+Prawdopodobny stack technologiczny:
+Java 8, SpringBoot 2, Maven, MySql, Git, JUnit + AssertJ, Mockito, Lombok, Guava, Slf4j by Lombok
+
+
+
