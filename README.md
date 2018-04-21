@@ -68,3 +68,9 @@ Java 8, SpringBoot 2, Maven, MySql, Git, JUnit + AssertJ, Mockito, Lombok, Guava
 3.	opcjonalnie -> testy kaskadowosci i orphanRemoval za pomoca h2
 
 
+Wykonaj listener jako:
+* klasę wewnętrzną
+* klasę zewnętrzną
+* klasę lokalną
+* klasę anonimową
+
