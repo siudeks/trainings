@@ -11,10 +11,10 @@
 Czołem programisto! Nasz nowy klient CIT (Centrum Informacji Turystycznej) chce mieć aplikację która będzie wykorzystywana do rejestracji uczestników na organizowane wydarzenia.  
 Na obecnym etapie aplikacja będzie zainstalowana lokalnie w siedzibie CIT i obsługiwana wyłącznie przez operatora. Prosty interfejs znakowy wystarczy w zupełności do obsługi programu przez jedynego uzytkownika.
 Operator chce:
-* rejestrować uczestników na konkretne wydarzenia
+* rejestrować uczestników na konkretne wydarzenia tak, aby wiedzieć czy osiągnięto minimalną ilość uczestników lub nie przekroczono maksymalnej ilości uczestników (powstaje wtedy lista rezerwowa)
 * rejestrować opiekunów tych wydarzeń
 
-Zadanie:
+Zadanie 1:
 * Skonstruuj listę funkcjonalności które chcesz dostarczyć w aplikacji
 * napisz aplikację
 
