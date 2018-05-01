@@ -17,6 +17,8 @@ Operator chce:
 Zadanie 1:
 * Skonstruuj listę funkcjonalności które chcesz dostarczyć w aplikacji
 * napisz aplikację
+* rewykorzystaj model bazy danych w komunikacji DAO tak aby w przyszłym refaktoerze potem widzieć sens separacji modeli
+* stwórz model UI z opcjami wybory i skonstruuj odpowiadającą mu tabelę tak, aby potem widzieć zapytania badające warunki OR i AND na indywidualnych kolumnach tabeli
 
 
 
