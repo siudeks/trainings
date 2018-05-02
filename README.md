@@ -6,6 +6,9 @@
 * Bazy danych
 * Skalowalność
 
+## Ścieżka
+[Dobre do obejrzenia](https://medium.com/tech-tajawal/modern-backend-developer-in-2018-6b3f7b5f8b9)
+
 ## Część 1
 
 Czołem programisto! Nasz nowy klient CIT (Centrum Informacji Turystycznej) chce mieć aplikację która będzie wykorzystywana do rejestracji uczestników na organizowane wydarzenia.  
